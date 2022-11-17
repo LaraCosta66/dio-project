@@ -6,8 +6,8 @@ return(
        <img src={Logo} alt="Logo DIO" />
         <div className='btn'>
             <p>Home</p>
-            <button  type="button">Entrar</button>
-            <button  type='button'>Cadastrar</button>
+            <button className='button' type="button">Entrar</button>
+            <button className='button' type='button'>Cadastrar</button>
         </div>
     </header>
 )

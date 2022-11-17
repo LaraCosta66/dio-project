@@ -1,9 +1,14 @@
-import { Header } from "./components/Header";
 
+import { Header } from "./Pages/Header";
+import { Home } from "./Pages/Home";
 
 const App = () => {
   return(
-<Header/>
+    <>
+  <Header />
+ <Home/>
+
+  </>
   );
 }
 

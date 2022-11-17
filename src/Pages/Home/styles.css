@@ -1,0 +1,55 @@
+.main{
+    width: auto;
+    height: 100vh;
+    padding: 75px 65px 0 65px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#1E192C ;
+}
+.text{
+    width: 368px ;
+    font-family: 'Open sans';
+    font-weight: 400;
+    font-size: 1rem;
+    font-style: normal;
+    color: #FFFFFF;
+
+}
+.text p{
+    margin-top: 15px;
+}
+.title{
+    font-weight: 700;
+    font-size: 32px;
+    color:  #E4105D;
+}
+.outlineBtn{
+    width: 177px;
+    height: 41px;
+    margin-top: 55px;
+    padding: 4px;
+    border: 1px solid #E4105D;
+    border-radius: 27px;    
+
+
+}
+.text button{
+    width: 177px;
+    height: 41px;
+    border:none;
+    border-radius: 27px;    
+    background-color: #E4105D;
+  
+
+    font-family: 'Open sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    
+    color: #FFFFFF;
+}
+.main img{
+    width: 580px;
+    height: 385px;
+}
