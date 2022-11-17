@@ -1,0 +1,20 @@
+{
+    "editor.defaultFormatter": "dbaeumer.prettier-vscode",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.codeAction.showDocumentation": {
+      "enable": true
+    },
+    "search.exclude": {
+      "**/.next/": true,
+      "**/dist/": true,
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/*.code-search": true
+    },
+    "javascript.preferences.importModuleSpecifier": "project-relative"
+  }

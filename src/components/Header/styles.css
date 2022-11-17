@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px 20px 60px ;
+    background-color: #151515;
+    font-family: 'Open Sans', sans-serif ;
+    color: #FFFFFF;
+
+}
+img{
+    width: 63px;
+    height: 25px;
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+p{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+button{
+    width: 120px;
+    height: 24px;
+    border-radius:10px ;
+    border:  none;
+    background-color: #565656;
+   
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #FFFFFF;
+   
+}
