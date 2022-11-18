@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom'
 import HeroImage from'../../assets/hero-image.png'
-import './styles.css'
+import './homeStyles.css'
 export const Home = () =>{
     return(
         <div className="main">
@@ -15,7 +16,7 @@ export const Home = () =>{
                     <button type="button">Começar agora</button>
                 </div> 
             </div>
-
+        <Link to='/login'>Login</Link>
         <img src={HeroImage} alt="Hero logo" />
         </div>
     )

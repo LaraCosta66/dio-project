@@ -1,0 +1,76 @@
+.hero{
+    width: auto;
+    height: 100vh;
+    padding: 90px 180px 0 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#1E192C ;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+
+    color: #FFFFFF;
+}
+.login{
+    width: 300px;
+}
+.txt{
+    width: 565px;
+    height: 180px;
+    font-weight: 700;
+    font-size: 32px;
+}
+.titulo h1{
+    font-size: 32px;
+}
+.titulo p{
+    font-weight: 700;
+    font-size: 18px;
+}
+.inputBtn {
+    display: flex;
+    flex-direction: column;
+}
+.inputBtn input{
+    width: 250px;
+    height: 30px;
+    justify-content: center;
+    margin-top: 20px;
+    background: transparent;
+    outline: 0;
+    border: none;
+    border-bottom: 2px solid #3B3450;
+}
+
+.outline button{
+    width: 280px;
+    height: 42px;
+    margin-top: 40px;
+    border: 1px solid #E4105D;
+    background-color: #E4105D;
+    border-radius: 27px;
+    border-spacing: 10px;
+
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 40px;
+   
+}
+.link a{
+    text-decoration: none;
+    color:  #23DD7A;
+    
+}
+.link .forgetpwd{
+    color:   #E5E044;
+    
+}

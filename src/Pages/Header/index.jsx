@@ -1,5 +1,5 @@
 import Logo from '../../assets/logo-dio.png'
-import './styles.css'
+import './headerStyles.css'
 export const Header = () =>{
 return(
     <header className='header'>
